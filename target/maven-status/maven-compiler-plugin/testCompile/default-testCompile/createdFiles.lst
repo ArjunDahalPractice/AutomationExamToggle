@@ -1,1 +1,3 @@
+base\ExtentManager.class
+base\TestListeners.class
 Test\ToggleCheckOnTest.class

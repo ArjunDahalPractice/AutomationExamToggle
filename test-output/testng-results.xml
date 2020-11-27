@@ -1,25 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29110" started-at="2020-09-10T01:35:18Z" finished-at="2020-09-10T01:35:47Z">
+  <suite name="Suite" duration-ms="56524" started-at="2020-11-26T18:13:42 CST" finished-at="2020-11-26T18:14:38 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29110" started-at="2020-09-10T01:35:18Z" finished-at="2020-09-10T01:35:47Z">
+    <test name="Test" duration-ms="56524" started-at="2020-11-26T18:13:42 CST" finished-at="2020-11-26T18:14:38 CST">
       <class name="Test.ToggleCheckOnTest">
-        <test-method status="PASS" signature="validateToggleChecked()[pri:1, instance:Test.ToggleCheckOnTest@45f45fa1]" name="validateToggleChecked" duration-ms="24475" started-at="2020-09-10T01:35:18Z" finished-at="2020-09-10T01:35:43Z">
+        <test-method status="PASS" signature="validateToggleChecked()[pri:1, instance:Test.ToggleCheckOnTest@7dc222ae]" name="validateToggleChecked" duration-ms="50481" started-at="2020-11-26T18:13:42 CST" finished-at="2020-11-26T18:14:32 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateToggleChecked -->
-        <test-method status="PASS" signature="validateSingleToggleItemRemove()[pri:2, instance:Test.ToggleCheckOnTest@45f45fa1]" name="validateSingleToggleItemRemove" duration-ms="2421" started-at="2020-09-10T01:35:43Z" finished-at="2020-09-10T01:35:45Z">
+        <test-method status="PASS" signature="validateSingleToggleItemRemove()[pri:2, instance:Test.ToggleCheckOnTest@7dc222ae]" name="validateSingleToggleItemRemove" duration-ms="3398" started-at="2020-11-26T18:14:32 CST" finished-at="2020-11-26T18:14:36 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSingleToggleItemRemove -->
-        <test-method status="PASS" signature="validateAllToggleItemRemove()[pri:3, instance:Test.ToggleCheckOnTest@45f45fa1]" name="validateAllToggleItemRemove" duration-ms="2191" started-at="2020-09-10T01:35:45Z" finished-at="2020-09-10T01:35:47Z">
+        <test-method status="FAIL" signature="validateAllToggleItemRemove()[pri:3, instance:Test.ToggleCheckOnTest@7dc222ae]" name="validateAllToggleItemRemove" duration-ms="1412" started-at="2020-11-26T18:14:36 CST" finished-at="2020-11-26T18:14:37 CST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Executing Failed Test Method]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Executing Failed Test Method
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Test.ToggleCheckOnTest.validateAllToggleItemRemove(ToggleCheckOnTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAllToggleItemRemove -->
+        <test-method status="PASS" signature="tearDown()[pri:4, instance:Test.ToggleCheckOnTest@7dc222ae]" name="tearDown" duration-ms="725" started-at="2020-11-26T18:14:37 CST" finished-at="2020-11-26T18:14:38 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Test.ToggleCheckOnTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

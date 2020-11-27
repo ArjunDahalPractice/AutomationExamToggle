@@ -1,5 +1,7 @@
 package Util;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -15,7 +17,7 @@ public class BrowserFactory {
 		driver.get(baseUrl);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		BasePage.implicitWait(driver, 10);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return driver;		
 	}
 

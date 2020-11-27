@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
@@ -7,14 +7,19 @@
 </head>
 <body>
 <table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">29,110</td><td></td><td></td></tr>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">56,524</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Test.ToggleCheckOnTest</td><td><a href="#m0">validateAllToggleItemRemove</a></td><td rowspan="1">1599701745743</td><td rowspan="1">2191</td></tr><tr class="passedeven"><td><a href="#m1">validateSingleToggleItemRemove</a></td><td rowspan="1">1599701743321</td><td rowspan="1">2421</td></tr><tr class="passedeven"><td><a href="#m2">validateToggleChecked</a></td><td rowspan="1">1599701718843</td><td rowspan="1">24475</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Test.ToggleCheckOnTest</td><td><a href="#m0">validateAllToggleItemRemove</a></td><td rowspan="1">1606436076065</td><td rowspan="1">1412</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Test.ToggleCheckOnTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1606436077896</td><td rowspan="1">725</td></tr><tr class="passedeven"><td><a href="#m2">validateSingleToggleItemRemove</a></td><td rowspan="1">1606436072664</td><td rowspan="1">3398</td></tr><tr class="passedeven"><td><a href="#m3">validateToggleChecked</a></td><td rowspan="1">1606436022161</td><td rowspan="1">50481</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Test.ToggleCheckOnTest#validateAllToggleItemRemove</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Test.ToggleCheckOnTest#validateSingleToggleItemRemove</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Test.ToggleCheckOnTest#validateToggleChecked</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">Test.ToggleCheckOnTest#validateAllToggleItemRemove</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Executing Failed Test Method
+	at Test.ToggleCheckOnTest.validateAllToggleItemRemove(ToggleCheckOnTest.java:41)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Test.ToggleCheckOnTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Test.ToggleCheckOnTest#validateSingleToggleItemRemove</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Test.ToggleCheckOnTest#validateToggleChecked</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

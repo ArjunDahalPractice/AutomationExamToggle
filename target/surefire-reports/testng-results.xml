@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="36081" started-at="2020-09-09T23:29:34Z" finished-at="2020-09-09T23:30:10Z">
+  <suite name="Surefire suite" duration-ms="49383" started-at="2020-11-26T08:35:37Z" finished-at="2020-11-26T08:36:26Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="36081" started-at="2020-09-09T23:29:34Z" finished-at="2020-09-09T23:30:10Z">
+    <test name="Surefire test" duration-ms="49383" started-at="2020-11-26T08:35:37Z" finished-at="2020-11-26T08:36:26Z">
       <class name="Test.ToggleCheckOnTest">
-        <test-method status="PASS" signature="validateToggleChecked()[pri:1, instance:Test.ToggleCheckOnTest@2752f6e2]" name="validateToggleChecked" duration-ms="22598" started-at="2020-09-09T23:29:34Z" finished-at="2020-09-09T23:29:57Z">
+        <test-method status="PASS" signature="validateToggleChecked()[pri:1, instance:Test.ToggleCheckOnTest@7e0ea639]" name="validateToggleChecked" duration-ms="45400" started-at="2020-11-26T08:35:37Z" finished-at="2020-11-26T08:36:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateToggleChecked -->
-        <test-method status="PASS" signature="validateSingleToggleItemRemove()[pri:2, instance:Test.ToggleCheckOnTest@2752f6e2]" name="validateSingleToggleItemRemove" duration-ms="1912" started-at="2020-09-09T23:29:57Z" finished-at="2020-09-09T23:29:59Z">
+        <test-method status="PASS" signature="validateSingleToggleItemRemove()[pri:2, instance:Test.ToggleCheckOnTest@7e0ea639]" name="validateSingleToggleItemRemove" duration-ms="2160" started-at="2020-11-26T08:36:22Z" finished-at="2020-11-26T08:36:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSingleToggleItemRemove -->
-        <test-method status="PASS" signature="validateAllToggleItemRemove()[pri:3, instance:Test.ToggleCheckOnTest@2752f6e2]" name="validateAllToggleItemRemove" duration-ms="11547" started-at="2020-09-09T23:29:59Z" finished-at="2020-09-09T23:30:10Z">
+        <test-method status="PASS" signature="validateAllToggleItemRemove()[pri:3, instance:Test.ToggleCheckOnTest@7e0ea639]" name="validateAllToggleItemRemove" duration-ms="1758" started-at="2020-11-26T08:36:24Z" finished-at="2020-11-26T08:36:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAllToggleItemRemove -->
